@@ -1,0 +1,198 @@
+@media screen and (max-width:320px) {
+    
+    .header{
+        flex-direction: column;
+        height: 400px;
+        align-items: stretch;
+        &__list{
+        display: flex;
+        flex-direction: column;
+        }
+        &__item{
+        margin:0px;
+        text-align: center;
+        padding: 0.7rem;
+        }
+        &__logo{
+        max-width: 100px;
+        margin-left: 5rem;
+        }
+    }   
+
+    .hero{
+        display: flex;
+        height: 500px;
+        &__wrapper{
+        justify-content: center;
+        }
+        &__heading{
+        font-size: 2.2rem;
+        }
+        &__slogan{
+        font-size: 1.2rem;
+        }
+    }
+
+    .btn{
+        display: block;
+        margin: 2rem 5rem;
+        padding: 0.5rem;  
+        max-width: 10rem;  
+    }
+    
+    .dest{
+        display: flex;
+        flex-direction: column;
+        &card{
+        margin-top: 1rem;
+        }
+        &card__img{
+        width: 256px;
+        height: 256px;
+        }
+        &card__titulo{
+        text-align: center;
+        }
+    }
+
+    .pie{
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        &__1{
+        padding:1.5rem;
+        }
+    }
+
+    .encabezado{
+        height: 200px;
+    }
+    
+    .info{
+        &__titulo{
+        font-size: 2rem;
+        }
+        &__sub{
+        font-size: 1rem;
+        width: 320px;
+        }
+        &__parrafo{
+        font-size: 1rem;
+        }
+        &__video{
+        width: 225px;
+        height: 175px;
+        }
+    }
+
+    .destinos{
+        &__nac{
+        display: flex;
+        flex-direction: column;
+        }
+        &__int{
+        display: flex;
+        flex-direction: column;
+        }
+    }
+    
+    .paquetes{
+        &__nac{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        &__cards{
+        max-width: 250px;
+        max-height: 400px;
+        margin-top: 0rem;
+        }
+        &__img{
+        margin: 0rem 0rem;
+        }
+        &__int{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+    }
+    
+    .fina{
+        &__titulo{
+        font-size: 1.5rem;
+        }
+        &__sub{
+        font-size: 1rem;
+        }
+    }
+    
+    .opcion1{
+        padding: 0.5rem;
+        margin: 1rem 1rem;
+        text-align: justify;
+        &__titulo{
+        margin: 1rem 0rem;
+        text-align: center;
+        font-size: 1rem;
+        }
+    }
+    
+    .opcion2__img{
+        max-width: 300px;
+        margin-left: -1rem;
+    }
+    
+    .opcion3__img{
+        height: 3rem;
+        width: 5rem;
+        margin: 1.5rem 0rem 0rem 0.4rem;
+    }
+    
+    .cont{
+        display: flex;
+        flex-direction: column;
+        &__1{
+        margin: 0rem 0rem;
+        padding: 0rem;
+        }
+        &__1--titulo{
+        font-size: 1.5rem;
+        margin: 2rem 2rem;
+        color: #028090;
+        }
+        &__2{
+        padding: 2rem;
+        margin-top: 0rem;
+        margin-left: 0rem;
+        }
+        &__2--titulo{
+        font-size: 1.5rem;
+        margin: 1rem 0rem;
+        }
+    }
+    
+    .form{
+        &-inp{
+        width: 200px;
+        height: 20px;
+        }
+        &-inp1{
+        width: 200px;
+        height: 100px;
+        }
+        &-inp2{
+        width: 200px;
+        height: 20px;
+        }
+   }
+    
+    .conta{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cont__maps{
+        width: 250px;
+        height: 150px;
+    }
+}

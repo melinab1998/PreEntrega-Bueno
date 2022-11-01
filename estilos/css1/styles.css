@@ -95,7 +95,7 @@ margin: 0.5rem 1rem 0.5rem 1rem;
     padding: 2rem;
 }
 
-.header--gradient{
+.header__gradient{
     background: rgb(2,128,144);
     background: -moz-linear-gradient(0deg, rgba(2,128,144,1) 30%, rgba(0,168,150,1) 70%);
     background: -webkit-linear-gradient(0deg, rgba(2,128,144,1) 30%, rgba(0,168,150,1) 70%);
@@ -201,7 +201,7 @@ margin-top: 1rem;
     grid-template-columns: repeat(3, 1fr);
     }
 
-.pie--gradient{
+.pie__gradient{
     background: rgb(0,168,150);
     background: -moz-linear-gradient(0deg, rgba(0,168,150,1) 30%, rgba(2,128,144,1) 70%);
     background: -webkit-linear-gradient(0deg, rgba(0,168,150,1) 30%, rgba(2,128,144,1) 70%);
@@ -342,7 +342,7 @@ margin: 3rem 0rem;
     width: 220px;
     height: 220px;
     border:0.1rem solid #0eb1c7;
-    border-radius:150px
+    border-radius:150px;
 }
 
 .destinos__img:hover{

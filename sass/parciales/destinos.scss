@@ -1,0 +1,49 @@
+.destinos{
+    &__titulo{
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #eceecb;
+    background-image: url("/img/destinos3.jpg");
+    }
+    &__sub{
+    padding: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #eceecb;
+    }
+    &__nac{
+    display: grid;
+    background-color: #eceecb;
+    grid-template-columns: repeat(5, 275px);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    }
+    &__cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem 0rem;
+    }
+    &__img{
+    width: 220px;
+    height: 220px;
+    border:0.1rem solid #0eb1c7;
+    border-radius:150px;
+    }
+    &__img:hover{
+    border:0.2rem solid black;
+    }
+    &__nombre{
+    margin: 1rem 0rem;
+    font-size: 1rem;
+    }
+    &__int{
+    display: grid;
+    grid-template-columns: repeat(5, 275px);
+    background-color: #eceecb;
+    justify-content: center;
+    }
+}

@@ -1,0 +1,52 @@
+.cont{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #eceecb;
+    &__titulo{
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #eceecb;
+    background-image: url(../../img/destinos3.jpg);
+    }
+    &__1{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    margin-top: 2rem;
+    margin-left: 15rem;
+    }
+    &__1--titulo{
+    font-size: 1.5rem;
+    margin: 2rem 2rem;
+    color: #028090;
+    }
+    &__1--text{
+    margin: 1rem 2rem;
+    }
+    &__2--titulo{
+        font-size: 2rem;
+    }
+    &__2{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-top: 8rem;
+    margin-left: 5rem;
+    }
+    &__3{
+    display: flex;
+    justify-content: center;
+    background-color: #eceecb;
+    } 
+    &__maps{
+    margin: 3rem 5rem;
+    width:1000px;
+    height:300px;   
+    }  
+}
+
+.conta{
+    display: grid;
+    grid-template-rows: 1fr;
+}

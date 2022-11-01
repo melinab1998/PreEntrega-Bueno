@@ -1,0 +1,57 @@
+.paquetes{
+    &__titulo{
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #eceecb;
+    background-image: url(../../img/destinos3.jpg);
+    }
+    &__sub{
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color:#eceecb;
+    }
+    &__nac{
+    display: grid;
+    background-color: #eceecb;
+    grid-template-columns: repeat(5, 300px);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    }
+    &__cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    max-width: 280px;
+    margin: 2rem 1rem;
+    border: 0.1rem solid #0eb1c7;
+    }
+    &__cards:hover{
+    border: 0.1rem solid black;
+    }
+    &__img{
+    margin-top: 1rem;
+    width: 240px;
+    height: 280px;
+    }
+    &__nombre{
+    padding: 1rem;
+    }
+    &__fecha{
+    padding: 0.5rem;
+    font-weight: bold;
+    }
+    &__precio{
+    padding: 0.5rem;
+    }
+    &__int{
+    display: grid;
+    background-color: #eceecb;
+    grid-template-columns: repeat(5, 300px);
+    justify-content: center;
+    }
+}

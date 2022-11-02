@@ -1,21 +1,24 @@
+
+@import "./variables";
+
 .destinos{
     &__titulo{
     padding: 1.5rem;
     text-align: center;
-    font-size: 1.5rem;
-    color: #eceecb;
+    font-size: $font1;
+    color: $color-4;
     background-image: url("../img/destinos3.jpg");
     }
     &__sub{
     padding: 3rem;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: $font1;
     font-weight: bold;
-    background-color: #eceecb;
+    background-color: $color-4;
     }
     &__nac{
     display: grid;
-    background-color: #eceecb;
+    background-color: $color-4;
     grid-template-columns: repeat(5, 275px);
     grid-template-rows: repeat(2, 1fr);
     justify-content: center;
@@ -30,7 +33,7 @@
     &__img{
     width: 220px;
     height: 220px;
-    border:0.1rem solid #0eb1c7;
+    border:0.1rem solid $color-2;
     border-radius:150px;
     }
     &__img:hover{
@@ -38,12 +41,12 @@
     }
     &__nombre{
     margin: 1rem 0rem;
-    font-size: 1rem;
+    font-size: $font3;
     }
     &__int{
     display: grid;
     grid-template-columns: repeat(5, 275px);
-    background-color: #eceecb;
+    background-color: $color-4;
     justify-content: center;
     }
 }

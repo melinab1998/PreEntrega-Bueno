@@ -1,3 +1,5 @@
+@import "./variables";
+
 .hero{
     height: 85vh;
     position: relative;
@@ -6,7 +8,7 @@
     justify-content: center;
     align-items: center;
     background-image: url("../img/header.jpg");
-    color:#F0F3BD;
+    color: $color-1;
     &__wrapper{
     position: absolute;
     }
@@ -15,7 +17,7 @@
     }
     &__slogan{
     display:inline-block;
-    font-size: 1.5rem;
+    font-size: $font1;
     margin: 1rem 0rem 1rem 0rem;
     }
     &__redes{

@@ -1,12 +1,14 @@
+@import "./variables";
+
 .cont{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: #eceecb;
+    background-color: $color-4;
     &__titulo{
     padding: 1.5rem;
     text-align: center;
-    font-size: 1.5rem;
-    color: #eceecb;
+    font-size: $font1;
+    color: $color-4;
     background-image: url("../img/destinos3.jpg");
     }
     &__1{
@@ -17,15 +19,15 @@
     margin-left: 15rem;
     }
     &__1--titulo{
-    font-size: 1.5rem;
+    font-size: $font1;
     margin: 2rem 2rem;
-    color: #028090;
+    color: $color-3;
     }
     &__1--text{
     margin: 1rem 2rem;
     }
     &__2--titulo{
-        font-size: 2rem;
+    font-size: $font2;
     }
     &__2{
     display: flex;
@@ -37,7 +39,7 @@
     &__3{
     display: flex;
     justify-content: center;
-    background-color: #eceecb;
+    background-color: $color-4;
     } 
     &__maps{
     margin: 3rem 5rem;

@@ -1,8 +1,10 @@
+@import "./variables";
+
 .info{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #eceecb;
+    background-color: $color-4;
     &__titulo{
     justify-content: center;
     margin-top: 1rem;
@@ -14,9 +16,9 @@
     justify-content: center;
     text-align: center;
     font-weight: lighter;
-    color: #028090;
+    color: $color-3;
     padding: 1rem;
-    font-size: 1.5rem;
+    font-size: $font1;
     }
     &__parrafo{
     text-align: center;
@@ -28,7 +30,7 @@
     &__video{
     width: 650px;
     height: 350px;
-    border: 0.2rem solid #028090;
+    border: 0.2rem solid $color-3;
     margin: 2.5rem 0rem;
     }
 }

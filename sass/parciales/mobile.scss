@@ -1,3 +1,6 @@
+
+@import "./variables";
+
 @media screen and (max-width:320px) {
     
     .header{
@@ -70,14 +73,14 @@
     
     .info{
         &__titulo{
-        font-size: 2rem;
+        font-size: $font2;
         }
         &__sub{
-        font-size: 1rem;
+        font-size: $font3;
         width: 320px;
         }
         &__parrafo{
-        font-size: 1rem;
+        font-size: $font3;
         text-align: justify;
         margin: 0rem 1rem;
         }
@@ -121,10 +124,10 @@
     
     .fina{
         &__titulo{
-        font-size: 1.5rem;
+        font-size: $font1;
         }
         &__sub{
-        font-size: 1rem;
+        font-size: $font3;
         }
     }
     
@@ -135,7 +138,7 @@
         &__titulo{
         margin: 1rem 0rem;
         text-align: center;
-        font-size: 1rem;
+        font-size: $font3;
         }
     }
     
@@ -160,9 +163,9 @@
         padding: 0rem;
         }
         &__1--titulo{
-        font-size: 1.5rem;
+        font-size: $font1;
         margin: 2rem 2rem;
-        color: #028090;
+        color: $color-3;
         }
         &__2{
         padding: 2rem;
@@ -170,7 +173,7 @@
         margin-left: 0rem;
         }
         &__2--titulo{
-        font-size: 1.5rem;
+        font-size: $font1;
         margin: 1rem 0rem;
         }
     }

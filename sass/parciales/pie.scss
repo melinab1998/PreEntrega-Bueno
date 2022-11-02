@@ -1,3 +1,5 @@
+@import "./variables";
+
 .pie{
     height: 30vh;
     display: grid;
@@ -34,14 +36,14 @@
 }
 
 .line{
-    color: #028090;
+    color: $color-3;
 }
 
 .copy{
-    background-color:#F0F3BD;
+    background-color: $color-1;
     &__text{
     margin-left: 0.5rem;
     color: black;
-    font-size: 1rem;
+    font-size: $font3;
     }
 }

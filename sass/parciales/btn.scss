@@ -1,6 +1,9 @@
+
+@import "./variables";
+
 .btn{
     display: block;
-    background-color: #F0F3BD;
+    background-color: $color-1;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -10,26 +13,26 @@
     text-align: center;
     max-width: 15rem;
     &:hover{
-    color: #028090;
+    color: $color-3;
     }
     }
     
 .btn1{
-    background-color: #0eb1c7;
+    background-color: $color-2;
     text-decoration: none;
     display: inline-block;
     padding: 0.5rem;
     margin: 1rem 3rem 2rem 3rem;
     color: black;
     &:hover{
-    background-color: #F0F3BD;
+    background-color: $color-1;
     border: black solid 0.1rem;
     }
     }   
     
 .btn2{
     display: inline-block;
-    background-color: #F0F3BD;
+    background-color: $color-1;
     color: black;
     font-weight: bold;
     text-decoration: none;
@@ -40,5 +43,7 @@
         padding: 1rem;
     }
     }
+
+    
     
    

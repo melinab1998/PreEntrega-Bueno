@@ -1,3 +1,5 @@
+@import "./variables";
+
 .header{
     display: flex;
     height: 150px;
@@ -29,6 +31,6 @@
     color:black;
     }
     &__anchor:hover{
-        color: #028090;
+        color: $color-3;
     }
 }

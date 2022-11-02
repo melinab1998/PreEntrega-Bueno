@@ -5,6 +5,7 @@
     background-color: #eceecb;
     &__titulo{
     justify-content: center;
+    margin-top: 1rem;
     text-align: center;
     padding: 1rem;
     font-size: 2.5rem;
@@ -13,18 +14,21 @@
     justify-content: center;
     text-align: center;
     font-weight: lighter;
+    color: #028090;
     padding: 1rem;
     font-size: 1.5rem;
     }
     &__parrafo{
-    text-align: justify;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.2rem;
     padding: 1rem;
-    margin: 1rem 2rem;
+    margin: 1rem 7rem;
     }
     &__video{
-    width: 700px;
-    height: 400px;
+    width: 600px;
+    height: 350px;
     border: 0.2rem solid #028090;
-    margin: 3rem 0rem;
+    margin: 2.5rem 0rem;
     }
 }

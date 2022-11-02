@@ -78,6 +78,8 @@
         }
         &__parrafo{
         font-size: 1rem;
+        text-align: justify;
+        margin: 0rem 1rem;
         }
         &__video{
         width: 225px;
@@ -142,10 +144,12 @@
         margin-left: -1rem;
     }
     
-    .opcion3__img{
-        height: 3rem;
-        width: 5rem;
-        margin: 1.5rem 0rem 0rem 0.4rem;
+    .opcion3{
+        &__img{
+            height: 3rem;
+            width: 5rem;
+            margin: 1.5rem 0rem 0rem 0.4rem;
+        }
     }
     
     .cont{

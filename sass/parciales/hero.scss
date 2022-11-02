@@ -1,12 +1,12 @@
 .hero{
-    background-image: url("/img/header.jpg");
-    color: #F0F3BD;
     height: 85vh;
     position: relative;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("../img/header.jpg");
+    color:#F0F3BD;
     &__wrapper{
     position: absolute;
     }

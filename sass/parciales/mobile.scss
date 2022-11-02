@@ -1,6 +1,11 @@
 
 @import "./variables";
 
+@mixin flex-d{
+    flex-direction: column;
+    display: flex;
+}
+
 @media screen and (max-width:320px) {
     
     .header{
@@ -8,8 +13,7 @@
         height: 400px;
         align-items: stretch;
         &__list{
-        display: flex;
-        flex-direction: column;
+        @include flex-d;
         }
         &__item{
         margin:0px;
@@ -44,8 +48,7 @@
     }
     
     .dest{
-        display: flex;
-        flex-direction: column;
+        @include flex-d;
         &card{
         margin-top: 1rem;
         }
@@ -59,8 +62,7 @@
     }
 
     .pie{
-        display: flex;
-        flex-direction: column;
+        @include flex-d;
         height: 500px;
         &__1{
         padding:1.5rem;
@@ -92,19 +94,16 @@
 
     .destinos{
         &__nac{
-        display: flex;
-        flex-direction: column;
+        @include flex-d;
         }
         &__int{
-        display: flex;
-        flex-direction: column;
+        @include flex-d;
         }
     }
     
     .paquetes{
         &__nac{
-        display: flex;
-        flex-direction: column;
+        @include flex-d;
         align-items: center;
         }
         &__cards{
@@ -116,8 +115,7 @@
         margin: 0rem 0rem;
         }
         &__int{
-        display: flex;
-        flex-direction: column;
+        @include flex-d;
         align-items: center;
         }
     }
@@ -156,8 +154,7 @@
     }
     
     .cont{
-        display: flex;
-        flex-direction: column;
+        @include flex-d;
         &__1{
         margin: 0rem 0rem;
         padding: 0rem;
@@ -194,8 +191,7 @@
    }
     
     .conta{
-        display: flex;
-        flex-direction: column;
+        @include flex-d;
     }
     
     .cont__maps{

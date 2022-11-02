@@ -1,6 +1,13 @@
 
 @import "./variables";
 
+
+@mixin display-pad-dec{
+    display: inline-block;
+    padding: 0.5rem;
+    text-decoration: none;  
+}
+
 .btn{
     display: block;
     background-color: $color-1;
@@ -18,10 +25,8 @@
     }
     
 .btn1{
+    @include display-pad-dec;
     background-color: $color-2;
-    text-decoration: none;
-    display: inline-block;
-    padding: 0.5rem;
     margin: 1rem 3rem 2rem 3rem;
     color: black;
     &:hover{
@@ -31,12 +36,10 @@
     }   
     
 .btn2{
-    display: inline-block;
+    @include display-pad-dec;
     background-color: $color-1;
     color: black;
     font-weight: bold;
-    text-decoration: none;
-    padding: 0.5rem;
     border: solid 0.1rem black;
     margin: 0.5rem 1rem 0.5rem 1rem;
     &:hover{

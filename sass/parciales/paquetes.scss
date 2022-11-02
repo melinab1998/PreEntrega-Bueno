@@ -1,5 +1,10 @@
 @import "./variables";
 
+@mixin just-grid{
+    justify-content: center;
+    display: grid;
+}
+
 .paquetes{
     &__titulo{
     padding: 1.5rem;
@@ -16,11 +21,10 @@
     background-color: $color-4;
     }
     &__nac{
-    display: grid;
+    @include just-grid;
     background-color: $color-4;
     grid-template-columns: repeat(5, 300px);
     grid-template-rows: repeat(2, 1fr);
-    justify-content: center;
     }
     &__cards{
     display: flex;
@@ -51,9 +55,8 @@
     padding: 0.5rem;
     }
     &__int{
-    display: grid;
+    @include just-grid;
     background-color: #eceecb;
     grid-template-columns: repeat(5, 300px);
-    justify-content: center;
     }
 }

@@ -1,20 +1,23 @@
 @import "./variables";
 
+@mixin just-align{
+    justify-content: center;
+    text-align: center;
+}
+
 .info{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: $color-4;
     &__titulo{
-    justify-content: center;
+    @include just-align;
     margin-top: 1rem;
-    text-align: center;
     padding: 1rem;
     font-size: 2.5rem;
     }
     &__sub{
-    justify-content: center;
-    text-align: center;
+    @include just-align;
     font-weight: lighter;
     color: $color-3;
     padding: 1rem;

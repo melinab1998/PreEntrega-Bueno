@@ -1,18 +1,21 @@
 
 @import "./variables";
 
-.destinos{
-    &__titulo{
-    padding: 1.5rem;
+@mixin font-align{
     text-align: center;
     font-size: $font1;
+}
+
+.destinos{
+    &__titulo{
+    @include font-align;
+    padding: 1.5rem;
     color: $color-4;
     background-image: url("../img/destinos3.jpg");
     }
     &__sub{
+    @include font-align;
     padding: 3rem;
-    text-align: center;
-    font-size: $font1;
     font-weight: bold;
     background-color: $color-4;
     }

@@ -34,9 +34,8 @@
 }
 
 .opcion2__img{
-    max-width: 500px;
-    padding: 1rem;
-    margin-left: 29rem;
+    max-width: 350px;
+    margin-top: 1rem;
 }
 
 
@@ -45,11 +44,10 @@
         margin-top: 1rem;
     }
     &__img{
-        height: 4rem;
-        width: 8rem;
-        margin-top:2rem;
-        margin-right: 0.5rem;
-        border-radius: 5%;
+        display: block;
+        max-width: 8rem;
+        margin-bottom: 1rem;
+        border-radius: 4%;
     }
 }
 

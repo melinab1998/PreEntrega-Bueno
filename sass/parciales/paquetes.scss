@@ -23,7 +23,7 @@
     &__nac{
     @include just-grid;
     background-color: $color-4;
-    grid-template-columns: repeat(5, 300px);
+    grid-template-columns: repeat(5, 290px);
     grid-template-rows: repeat(2, 1fr);
     }
     &__cards{
@@ -32,8 +32,8 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    max-width: 280px;
-    margin: 2rem 1rem;
+    max-width: 270px;
+    margin: 2rem 0.3rem;
     border: 0.1rem solid $color-2;
     }
     &__cards:hover{
@@ -57,6 +57,6 @@
     &__int{
     @include just-grid;
     background-color: #eceecb;
-    grid-template-columns: repeat(5, 300px);
+    grid-template-columns: repeat(5, 290px);
     }
 }

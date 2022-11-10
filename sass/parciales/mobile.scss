@@ -118,6 +118,13 @@
         @include flex-d;
         align-items: center;
         }
+        &__nombre{
+            font-size: 1.2rem;
+        }
+        &__nombre1{
+            font-size: 1rem;
+            padding: 1rem;
+        }
     }
     
     .fina{
@@ -141,15 +148,12 @@
     }
     
     .opcion2__img{
-        max-width: 300px;
-        margin-left: -1rem;
+        max-width: 275px;
     }
     
     .opcion3{
         &__img{
-            height: 3rem;
-            width: 5rem;
-            margin: 1.5rem 0rem 0rem 0.4rem;
+            max-width: 7rem;
         }
     }
     
